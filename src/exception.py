@@ -1,7 +1,7 @@
 # Module provides various function and variables that are used to manipulate different parts of the Python runtime environment
 
 import sys
-import logging
+from src.logger import logging
 """
 error_message_details(error, error_detail:sys):
     return type will be sys
@@ -35,11 +35,3 @@ class CustomException(Exception):
     
     def __str__(self) -> str:
         return self.error_message
-    
-
-if __name__ == "__main__":
-    try:
-        a = 1/0
-    except Exception as e:
-        logging.info("Divide by zero")
-        raise CustomException(e, sys)

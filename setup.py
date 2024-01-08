@@ -1,9 +1,9 @@
-# setup.py we can use to build the application as a package itself.
+# setup.py we can use to build the application as a package itself and deployed as a package.
 
 from setuptools import find_packages, setup
 from typing import List
 
-HYPEN_E_DOT = "-e ."
+HYPEN_E_DOT = "-e ."  # from the requirements file, so that it indicates the end of the file and it says setup.py is recognized
 
 def get_requirements(filename:str)->List[str]:
     

@@ -1,0 +1,127 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "typing_extensions >=4.0.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\async-lru-2.0.4-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/async_lru-2.0.4.dist-info/INSTALLER",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/LICENSE",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/METADATA",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/RECORD",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/REQUESTED",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/WHEEL",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/direct_url.json",
+    "Lib/site-packages/async_lru-2.0.4.dist-info/top_level.txt",
+    "Lib/site-packages/async_lru/__init__.py",
+    "Lib/site-packages/async_lru/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/async_lru/py.typed",
+    ".nonadmin"
+  ],
+  "fn": "async-lru-2.0.4-py38haa95532_0.conda",
+  "legacy_bz2_md5": "58e8869a648abf56073451b93102dc15",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\async-lru-2.0.4-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "5d4ecef528a26bb21f8f13b3f663f9ba",
+  "name": "async-lru",
+  "package_tarball_full_path": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\async-lru-2.0.4-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ea65975679bc2093be925d520358e41096bd96fddedee3e929160a5faadcf573",
+        "sha256_in_prefix": "ea65975679bc2093be925d520358e41096bd96fddedee3e929160a5faadcf573",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d4dd230ce6bfced094d64c5311b0b7050dd12504e60db76b8a9a30ee23461aac",
+        "sha256_in_prefix": "d4dd230ce6bfced094d64c5311b0b7050dd12504e60db76b8a9a30ee23461aac",
+        "size_in_bytes": 4634
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b7677658fb072f89b1a95a4d8241e93edae4acc444fc6b3885f2ade78b8fbab2",
+        "sha256_in_prefix": "b7677658fb072f89b1a95a4d8241e93edae4acc444fc6b3885f2ade78b8fbab2",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fa4932ca2a2163dc34e685b07744afb29afe4f2a04661e7562a6b91a8de49e84",
+        "sha256_in_prefix": "fa4932ca2a2163dc34e685b07744afb29afe4f2a04661e7562a6b91a8de49e84",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "Lib/site-packages/async_lru-2.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9d4cbe176b6afe07f462c40a206a879a44bf5c9c54fdd42520db976480074ec9",
+        "sha256_in_prefix": "9d4cbe176b6afe07f462c40a206a879a44bf5c9c54fdd42520db976480074ec9",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/async_lru/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01021d343d2a5f65a25140c6a1e1eca71ac9573bb43dce3347881af6b9ad8acb",
+        "sha256_in_prefix": "01021d343d2a5f65a25140c6a1e1eca71ac9573bb43dce3347881af6b9ad8acb",
+        "size_in_bytes": 9601
+      },
+      {
+        "_path": "Lib/site-packages/async_lru/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cf02dc96c1ee412805d437b3e15bc0b800317212c9d96395b57200f26d254e4",
+        "sha256_in_prefix": "9cf02dc96c1ee412805d437b3e15bc0b800317212c9d96395b57200f26d254e4",
+        "size_in_bytes": 9364
+      },
+      {
+        "_path": "Lib/site-packages/async_lru/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a0ea9ec910223e9795942a865cc1839d322fb2060243adb0f83e9a4acc4b5a6d",
+  "size": 18906,
+  "subdir": "win-64",
+  "timestamp": 1699554639140,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/async-lru-2.0.4-py38haa95532_0.conda",
+  "version": "2.0.4"
+}

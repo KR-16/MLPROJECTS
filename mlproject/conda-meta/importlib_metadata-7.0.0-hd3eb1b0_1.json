@@ -1,0 +1,39 @@
+{
+  "build": "hd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata >=7.0.0,<7.0.1.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\importlib_metadata-7.0.0-hd3eb1b0_1",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "importlib_metadata-7.0.0-hd3eb1b0_1.conda",
+  "legacy_bz2_md5": "c8d5dbea6e6d797cc5749d5c352a936e",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\importlib_metadata-7.0.0-hd3eb1b0_1",
+    "type": 1
+  },
+  "md5": "c834f78ade7a6a27ca6e420dd0d7d010",
+  "name": "importlib_metadata",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\importlib_metadata-7.0.0-hd3eb1b0_1.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "956e68a6bb90d5d970bba058b697e78cf4d7fc906aed0a119679ef8c210e5480",
+  "size": 8587,
+  "subdir": "noarch",
+  "timestamp": 1704294746506,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/importlib_metadata-7.0.0-hd3eb1b0_1.conda",
+  "version": "7.0.0"
+}

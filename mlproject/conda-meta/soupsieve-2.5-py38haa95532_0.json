@@ -1,0 +1,214 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\soupsieve-2.5-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/soupsieve-2.5.dist-info/INSTALLER",
+    "Lib/site-packages/soupsieve-2.5.dist-info/METADATA",
+    "Lib/site-packages/soupsieve-2.5.dist-info/RECORD",
+    "Lib/site-packages/soupsieve-2.5.dist-info/REQUESTED",
+    "Lib/site-packages/soupsieve-2.5.dist-info/WHEEL",
+    "Lib/site-packages/soupsieve-2.5.dist-info/direct_url.json",
+    "Lib/site-packages/soupsieve-2.5.dist-info/licenses/LICENSE.md",
+    "Lib/site-packages/soupsieve/__init__.py",
+    "Lib/site-packages/soupsieve/__meta__.py",
+    "Lib/site-packages/soupsieve/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/__pycache__/__meta__.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/__pycache__/css_match.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/__pycache__/css_parser.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/__pycache__/css_types.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/__pycache__/pretty.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/soupsieve/css_match.py",
+    "Lib/site-packages/soupsieve/css_parser.py",
+    "Lib/site-packages/soupsieve/css_types.py",
+    "Lib/site-packages/soupsieve/pretty.py",
+    "Lib/site-packages/soupsieve/py.typed",
+    "Lib/site-packages/soupsieve/util.py",
+    ".nonadmin"
+  ],
+  "fn": "soupsieve-2.5-py38haa95532_0.conda",
+  "legacy_bz2_md5": "ccdd22fbfe632c7ffea52096483b2165",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\soupsieve-2.5-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "0df34dce9eb9cbd908deb1cac242260a",
+  "name": "soupsieve",
+  "package_tarball_full_path": "C:\\Users\\KEERTHI RAJ\\anaconda3\\pkgs\\soupsieve-2.5-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "12c697bf18cee0f76342665c3b58b1a818d8678d91ad19d71803d3c8eb0cf881",
+        "sha256_in_prefix": "12c697bf18cee0f76342665c3b58b1a818d8678d91ad19d71803d3c8eb0cf881",
+        "size_in_bytes": 4730
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3e8ea56777c3cde9d89f92c5ac6ab70952290c9e39ab0b99d33bcab8a6e5bc9e",
+        "sha256_in_prefix": "3e8ea56777c3cde9d89f92c5ac6ab70952290c9e39ab0b99d33bcab8a6e5bc9e",
+        "size_in_bytes": 1549
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "sha256_in_prefix": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "50a19ef86793dda8908ad19bdf81635e51f22c5beb7b9aa864911d5d0099a8fb",
+        "sha256_in_prefix": "50a19ef86793dda8908ad19bdf81635e51f22c5beb7b9aa864911d5d0099a8fb",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve-2.5.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "ceb7b9053b88addffa3102a457302bd840d123925ee9ed9c2ac90cf6548b33bf",
+        "sha256_in_prefix": "ceb7b9053b88addffa3102a457302bd840d123925ee9ed9c2ac90cf6548b33bf",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8ad18d4e5b0e33e13d96ac44a00b152c8870a031d4f534417511afd2bfeecb7a",
+        "sha256_in_prefix": "8ad18d4e5b0e33e13d96ac44a00b152c8870a031d4f534417511afd2bfeecb7a",
+        "size_in_bytes": 4591
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__meta__.py",
+        "path_type": "hardlink",
+        "sha256": "67f42bbda4c4b006edc54bf2b373b0024732d4636397752676b74b56ae43f59c",
+        "sha256_in_prefix": "67f42bbda4c4b006edc54bf2b373b0024732d4636397752676b74b56ae43f59c",
+        "size_in_bytes": 6766
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36a314d8ff4fe92a5592d2d80bfabe1e5f1970cd66b8739e5a91927e164e172a",
+        "sha256_in_prefix": "36a314d8ff4fe92a5592d2d80bfabe1e5f1970cd66b8739e5a91927e164e172a",
+        "size_in_bytes": 4235
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/__meta__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2632f4d2c00214c34474633667fd6eda1146317cf552010ce7cf874a17cffca",
+        "sha256_in_prefix": "f2632f4d2c00214c34474633667fd6eda1146317cf552010ce7cf874a17cffca",
+        "size_in_bytes": 5916
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/css_match.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "132930b764575e62b5f40f87cc3a90473d3c5fcf631573c5eeb3aafefda1f951",
+        "sha256_in_prefix": "132930b764575e62b5f40f87cc3a90473d3c5fcf631573c5eeb3aafefda1f951",
+        "size_in_bytes": 36798
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/css_parser.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "941e526740eb8d19bc3d81480d517a0213c691e63a5ed282b95fe82cc0f22c0f",
+        "sha256_in_prefix": "941e526740eb8d19bc3d81480d517a0213c691e63a5ed282b95fe82cc0f22c0f",
+        "size_in_bytes": 28423
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/css_types.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed8a90100b3b872d7382251ab85ae07b60ebff82966aa003429143180244ec34",
+        "sha256_in_prefix": "ed8a90100b3b872d7382251ab85ae07b60ebff82966aa003429143180244ec34",
+        "size_in_bytes": 12819
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/pretty.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "336274f3442e66c7c2c917a5457d6144ff00c28ab2e4a7411d22d33b161b9c13",
+        "sha256_in_prefix": "336274f3442e66c7c2c917a5457d6144ff00c28ab2e4a7411d22d33b161b9c13",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f3917263453218d664a96f048499e960315929e60131020f438904857b878f8",
+        "sha256_in_prefix": "3f3917263453218d664a96f048499e960315929e60131020f438904857b878f8",
+        "size_in_bytes": 3252
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/css_match.py",
+        "path_type": "hardlink",
+        "sha256": "a0e5ebd53ab962846e6ca7fa2936399170141cd48b75681b4ba66f782feb5523",
+        "sha256_in_prefix": "a0e5ebd53ab962846e6ca7fa2936399170141cd48b75681b4ba66f782feb5523",
+        "size_in_bytes": 57952
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/css_parser.py",
+        "path_type": "hardlink",
+        "sha256": "3344af465d1c008f91cb7852e15960800d16bacb2f764ad8e12e5327aceddb5a",
+        "sha256_in_prefix": "3344af465d1c008f91cb7852e15960800d16bacb2f764ad8e12e5327aceddb5a",
+        "size_in_bytes": 46161
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/css_types.py",
+        "path_type": "hardlink",
+        "sha256": "a82c414565fdb068e02d7814f6a98cf79f8e6421cf67c922c9a1ef9f48a4ffdc",
+        "sha256_in_prefix": "a82c414565fdb068e02d7814f6a98cf79f8e6421cf67c922c9a1ef9f48a4ffdc",
+        "size_in_bytes": 10192
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/pretty.py",
+        "path_type": "hardlink",
+        "sha256": "f33f5937291be7b611fa6654ad8e0ef586570cfe818462d2abdf8303963caf0c",
+        "sha256_in_prefix": "f33f5937291be7b611fa6654ad8e0ef586570cfe818462d2abdf8303963caf0c",
+        "size_in_bytes": 4033
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/soupsieve/util.py",
+        "path_type": "hardlink",
+        "sha256": "4343151fbedc5015ccb4a5740f67fc4b27fdd2b7a63ded047cba9eebe9ac01e2",
+        "sha256_in_prefix": "4343151fbedc5015ccb4a5740f67fc4b27fdd2b7a63ded047cba9eebe9ac01e2",
+        "size_in_bytes": 3352
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a30718b8b7ac21c6efc23cda9c47351ce1fd6786d6425316795f0fd1264afcc7",
+  "size": 71886,
+  "subdir": "win-64",
+  "timestamp": 1696347669660,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/soupsieve-2.5-py38haa95532_0.conda",
+  "version": "2.5"
+}

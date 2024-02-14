@@ -27,7 +27,7 @@ class ModelTrainer:
     def initiate_model_trainer(self, train_array, test_array):
         try:
             logging.info("Splitting the Training and Testing input data")
-            X_Train, y_Train, X_test, y_Test = (
+            X_Train, y_Train, X_Test, y_Test = (
                 train_array[:,:-1],
                 train_array[:,-1],
                 test_array[:,:-1],
@@ -39,12 +39,83 @@ class ModelTrainer:
                 "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
-                "K-Neighbors Classifier": KNeighborsRegressor(),
-                "CatBoosting Classifier": CatBoostRegressor(verbose=False),
-                "AdaBoost Classifier": AdaBoostRegressor()
+                # "K-Neighbors Regressor": KNeighborsRegressor(),
+                "CatBoosting Regressor": CatBoostRegressor(verbose=False),
+                "AdaBoost Regressor": AdaBoostRegressor()
             }
 
-            model_report: dict=evaluate_model(X_Train=X_Train, y_Train=y_Train, X_test=X_test, y_Test=y_Test, models=models)
+            params = {
+                "Random Forest": [{
+                    "criterion":["squared_error", "absolute_error", "friedman_mse", "poisson"],
+                    "max_features": ["sqrt", "log2", None],
+                    "n_estimators":[8,16,32,64,128,256]
+                }],
+
+                "Decision Tree": [{
+                    "criterion":["squared_error", "absolute_error", "friedman_mse", "poisson"],
+                    "splitter": ["best", "random"],
+                    "max_features": ["sqrt", "log2", None]
+                }],
+
+                "Gradient Boosting": [{
+                    # "loss":["squared_error", "absolute_error", "huber", "quantile"],
+                    "learning_rate": [0.1, 0.01, 0.05, 0.001],
+                    "subsample": [0.6, 0.7, 0.75, 0.8, 0.85, 0.9],
+                    "criterion":["squared_error", "friedman_mse"],
+                    # "splitter": ["best", "random"],
+                    "max_features": ["sqrt", "log2", None],
+                    "n_estimators":[8,16,32,64,128,256]
+                }],
+
+                "Linear Regression": [{}],
+
+                # "K-Neighbour Regressor": [{
+                #     "n_neighbors": [5, 7, 9, 11, 13],
+                #     "weights": ["uniform", "distance"],
+                #     "algorithm": ["auto", "ball_tree", "kd_tree", "brute"]
+                # }],
+                "CatBoosting Regressor": [{
+                    "depth": [6, 8, 10],
+                    "learning_rate": [0.1, 0.01, 0.05, 0.001],
+                    "iterations": [30, 50, 100]
+                }],
+
+                "AdaBoost Regressor": [{
+                    "learning_rate": [0.1, 0.01, 0.05, 0.001],
+                    "loss": ["linear", "square", "exponential"],
+                    "n_estimators":[8,16,32,64,128,256]
+                }]
+
+            }
+
+            # params={
+            #     "Decision Tree": {
+            #         'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+            #     },
+            #     "Random Forest":{
+            #         'n_estimators': [8,16,32,64,128,256]
+            #     },
+            #     "Gradient Boosting":{
+            #         'learning_rate':[.1,.01,.05,.001],
+            #         'n_estimators': [8,16,32,64,128,256]
+            #     },
+            #     "Linear Regression": {},
+            #     # "K-Neighbour Regressor":{
+            #     #     'n_neighbors':[5,7,9,11]
+            #     # },
+            #     "CatBoosting Regressor":{
+            #         'depth': [6,8,10],
+            #         'iterations': [30, 50, 100]
+            #     },
+            #     "AdaBoost Regressor":{
+            #         'learning_rate':[.1,.01,0.5,.001],
+            #         'n_estimators': [8,16,32,64,128,256]
+            #     }
+            # }
+
+
+
+            model_report: dict=evaluate_model(X_Train=X_Train, y_Train=y_Train, X_Test=X_Test, y_Test=y_Test, models=models, params = params)
 
             ### To get the best model score from the dictionary - report
 
@@ -68,7 +139,7 @@ class ModelTrainer:
                 object=best_model
             )
 
-            predicted = best_model.predict(X_test)
+            predicted = best_model.predict(X_Test)
             R2_Score = r2_score(y_Test, predicted)
             
             return R2_Score

@@ -87,34 +87,7 @@ class ModelTrainer:
                 }]
 
             }
-
-            # params={
-            #     "Decision Tree": {
-            #         'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
-            #     },
-            #     "Random Forest":{
-            #         'n_estimators': [8,16,32,64,128,256]
-            #     },
-            #     "Gradient Boosting":{
-            #         'learning_rate':[.1,.01,.05,.001],
-            #         'n_estimators': [8,16,32,64,128,256]
-            #     },
-            #     "Linear Regression": {},
-            #     # "K-Neighbour Regressor":{
-            #     #     'n_neighbors':[5,7,9,11]
-            #     # },
-            #     "CatBoosting Regressor":{
-            #         'depth': [6,8,10],
-            #         'iterations': [30, 50, 100]
-            #     },
-            #     "AdaBoost Regressor":{
-            #         'learning_rate':[.1,.01,0.5,.001],
-            #         'n_estimators': [8,16,32,64,128,256]
-            #     }
-            # }
-
-
-
+            
             model_report: dict=evaluate_model(X_Train=X_Train, y_Train=y_Train, X_Test=X_Test, y_Test=y_Test, models=models, params = params)
 
             ### To get the best model score from the dictionary - report

@@ -47,30 +47,9 @@ def evaluate_model(X_Train, y_Train, X_Test, y_Test, models, params):
     except Exception as e:
         raise CustomException(e,sys)
 
-# def evaluate_model(X_Train,y_Train,X_Test,y_Test,models,params,cv=3,n_jobs=3,verbose=1,refit=False):
-#     try:
-#         report={}
-#         for i in range(len(models)):
-            
-#             model=list(models.values())[i]
-#             para=params[list(models.keys())[i]]
-            
-#             gs = GridSearchCV(model,para,cv=cv,n_jobs=n_jobs,verbose=verbose,refit=refit)
-#             gs.fit(X_Train,y_Train)
-            
-            
-#             model.set_params(**gs.best_params_)
-#             model.fit(X_Train,y_Train)
-            
-#             y_train_pred=model.predict(X_Train)
-#             y_test_pred=model.predict(X_Test)
-            
-#             train_model_score=r2_score(y_Train, y_train_pred)
-#             test_model_score=r2_score(y_Test, y_test_pred)
-            
-#             report[list(models.keys())[i]]=test_model_score
-     
-
-#         return report
-#     except Exception as e:
-#         raise CustomException(e,sys)
+def load_object(filepath):
+    try:
+        with open(filepath, "rb") as file_object:
+            return dill.load(file_object)
+    except Exception as e:
+        raise CustomException(e, sys)
